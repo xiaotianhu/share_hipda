@@ -1,0 +1,15 @@
+#threadtitle{
+    width:100%;
+    text-align:center;
+    font-size:25px;
+}
+
+.postmessage{
+    padding-left:40px;
+    border-bottom:1px dotted ;
+    padding-top:20px;
+}
+
+.t_msgfontfix,tr,td,.t_msgfont,font{
+    font-size:18px !important;
+}
