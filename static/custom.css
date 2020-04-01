@@ -1,15 +1,35 @@
-#threadtitle{
+html,body{
     width:100%;
-    text-align:center;
-    font-size:25px;
+    overflow: scroll;
+    word-wrap: break-word;
+    word-break: break-all;
 }
-
 .postmessage{
     padding-left:40px;
     border-bottom:1px dotted ;
     padding-top:20px;
 }
 
-.t_msgfontfix,tr,td,.t_msgfont,font{
-    font-size:18px !important;
+
+
+#threadtitle{
+    width:100%;
+    text-align:center;
+    font-size:24px;
 }
+
+.t_msgfontfix,tr,td,.t_msgfont,font{ font-size:20px !important; }
+
+
+
+@media only screen and (max-device-width: 700px) {
+    #threadtitle{
+        width:100%;
+        text-align:center;
+        font-size:48px;
+    }
+
+    .t_msgfontfix,tr,td,.t_msgfont,font{ font-size:40px !important; }
+}
+
+
